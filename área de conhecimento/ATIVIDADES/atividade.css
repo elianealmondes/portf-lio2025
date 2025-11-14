@@ -12,11 +12,25 @@ body {
     color: #333;
 }
 
+.logo-linguagens{
+  justify-content: center;
+  margin-top: 16px;
+  align-items: center;
+  margin-left: 440px;
+}
+
+.logo {
+  width: 120px;   
+  margin-bottom: 14px;
+  margin-right: 10px;
+}
+
+
 .titulo-pagina {
-    margin-top: -27px;
-    margin-bottom: 20px;
+    margin-top: -60px;
+    margin-bottom: 30px;
     color: #002d6a;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -28,9 +42,10 @@ body {
     box-shadow: 0 4px 20px white;
     border-radius: 15px;
     overflow: hidden;
-    margin-top: -45px;
+    margin-top: -30px;
     /* ADIÇÃO PARA SEPARAR OS CARROSSEIS */
     margin-bottom: 100px; 
+    margin-left: 50px;
 }
 
 .carrossel-foto-container {
@@ -147,7 +162,8 @@ body {
     font-size: 1.1em;
     color: #777;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: -3px;
 }
 
 /* ESTILOS DOS BOTÕES INFERIORES (COM FUNDO PADRÃO) */

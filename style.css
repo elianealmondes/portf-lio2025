@@ -319,11 +319,18 @@ p{
 }
 
 .anexos img {
-    width: 250px;
+    width: 275px;
     height: auto;
     border: 4px solid white;
-    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
+    transition: tranform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.anexos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgb(28, 70, 134);
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -340,7 +347,8 @@ nav a {
 
 nav a:hover, nav a:focus {
     background-color: white; 
-    color: rgb(28, 70, 134); 
+    color: rgb(28, 70, 134);
+    transform: scale(1.05);
 }
 
 .container {
